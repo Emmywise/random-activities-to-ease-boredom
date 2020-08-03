@@ -13,8 +13,6 @@ var getRandomActivities = function() {
                     accessibility: ${data.accessibility}`
                                         
         $("#data").html(text);
-    
-        console.log('data: ', data);
     });
 
 };

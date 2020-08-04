@@ -1,5 +1,5 @@
 var getRandomActivities = function() {
-    var url = `http://www.boredapi.com/api/activity`
+    var url = `https://www.boredapi.com/api/activity`
     
     $.ajax(url)
 	.done(function( data ) {
